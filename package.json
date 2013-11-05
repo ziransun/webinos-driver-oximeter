@@ -1,0 +1,24 @@
+{ "name": "webinos-driver-oximeter"
+, "publishConfig": { "tag": "alpha" }
+, "description": "Contec Pulse Oximeter Driver"
+, "keywords": [ "webinos", "pulse", "oximeter", "driver"]
+, "version": "0.0.1"
+, "homepage": "http://webinos.org/"
+, "author": "Ziran Sun <ziran.sun@samsung.com>"
+, "repository":
+  {
+  }
+, "bugs":
+  { "email": "webinos-wp4-ml@fokus.fraunhofer.de"
+  , "url": ""
+  }
+, "directories": { "lib": "./lib"
+                 }
+, "main": "./lib/driverHandle.js"
+, "dependencies":
+  {
+  }
+, "bundleDependencies":
+  [
+  ]
+}

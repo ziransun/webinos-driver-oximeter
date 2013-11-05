@@ -1,0 +1,19 @@
+{
+	"params" : {
+		"drivers" : [
+			{
+				"name" : "contec_oximeter_driver",
+				"type" : "serial",
+				"filename" : "oximeterDriver.js",
+				"interfaces" : [
+					{
+						"name" : "oximeter",
+						"type" : "oximeter",
+						"port" : "/dev/rfcomm0",    
+						"rate" : 9600
+					}				
+				]
+			}
+		]
+	}
+}
