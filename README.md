@@ -23,6 +23,10 @@ It will return MAC address of your oximeter.
 
 	sudo rfcomm bind /dev/rfcomm0 [MAC addr] 1
 
+You might need to add your username to the dialout group:
+
+sudo add [your Username] dialout
+
 
 ### For other OSs
 
