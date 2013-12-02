@@ -15,6 +15,11 @@ To pair the oximeter with your Linux PC, go to Bluetooth Settings (pull your blu
 
 ###Mount as a serial port in /dev  in Linux
 
+Release /dev/rfcomm0 if it exists
+
+sudo rfcomm release /dev/rfcomm0
+
+
 For Linux, in command line, do the following -
 
 	hcitool scan
